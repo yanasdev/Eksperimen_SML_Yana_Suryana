@@ -1,4 +1,7 @@
-pandas
+mlflow==2.19.0
+dagshub
+pandas==2.2.3
 numpy
 scikit-learn
-kagglehub
+kagglehub==1.0.2
+kagglesdk==0.1.30
