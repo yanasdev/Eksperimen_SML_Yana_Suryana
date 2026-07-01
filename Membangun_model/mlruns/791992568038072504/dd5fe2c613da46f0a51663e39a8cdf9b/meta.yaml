@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Rizky/Documents/Kaggle/Dicoding/Membangun_model/mlruns/791992568038072504/dd5fe2c613da46f0a51663e39a8cdf9b/artifacts
+end_time: 1782929525814
+entry_point_name: ''
+experiment_id: '791992568038072504'
+lifecycle_stage: active
+run_id: dd5fe2c613da46f0a51663e39a8cdf9b
+run_name: rogue-crab-462
+run_uuid: dd5fe2c613da46f0a51663e39a8cdf9b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782929515220
+status: 3
+tags: []
+user_id: Rizky

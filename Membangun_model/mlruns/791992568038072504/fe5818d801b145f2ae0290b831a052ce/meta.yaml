@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Rizky/Documents/Kaggle/Dicoding/Membangun_model/mlruns/791992568038072504/fe5818d801b145f2ae0290b831a052ce/artifacts
+end_time: 1782930534115
+entry_point_name: ''
+experiment_id: '791992568038072504'
+lifecycle_stage: active
+run_id: fe5818d801b145f2ae0290b831a052ce
+run_name: debonair-ape-365
+run_uuid: fe5818d801b145f2ae0290b831a052ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782930523970
+status: 3
+tags: []
+user_id: Rizky

@@ -1,0 +1,20 @@
+artifact_path: model_house_price
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+mlflow_version: 2.19.0
+model_size_bytes: 10119230
+model_uuid: fd24498a438b4f0fad73d75a4ca9d9fd
+run_id: 8b4eedeef8274b238ce3d83314852e85
+utc_time_created: '2026-07-01 18:15:17.980829'

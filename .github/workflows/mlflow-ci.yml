@@ -1,0 +1,40 @@
+name: MLflow CI Workflow
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+jobs:
+  train-with-mlflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install MLflow and dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mlflow==2.19.0 pandas==2.2.3 scikit-learn matplotlib numpy dagshub
+
+      - name: Copy dataset to MLProject folder
+        run: |
+          mkdir -p Workflow-CI/MLProject
+          cp Membangun_model/clean_data.csv Workflow-CI/MLProject/clean_data.csv
+
+      - name: Run MLflow Project
+        working-directory: ./Workflow-CI/MLProject
+        run: |
+          mlflow run . --entry-point main --experiment-name House_Price_Prediction_CI

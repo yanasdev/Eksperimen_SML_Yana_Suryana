@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Rizky/Documents/Kaggle/Dicoding/Membangun_model/mlruns/559547118280096846/f040cfaee6544ade9814ab61a7ae4381/artifacts
+end_time: 1782932813802
+entry_point_name: ''
+experiment_id: '559547118280096846'
+lifecycle_stage: active
+run_id: f040cfaee6544ade9814ab61a7ae4381
+run_name: rf_150_None
+run_uuid: f040cfaee6544ade9814ab61a7ae4381
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782932804833
+status: 3
+tags: []
+user_id: Rizky

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Rizky/Documents/Kaggle/Dicoding/Membangun_model/mlruns/791992568038072504/84894e70d4784a67ad3e3d305a4d40cd/artifacts
+end_time: 1782931051114
+entry_point_name: ''
+experiment_id: '791992568038072504'
+lifecycle_stage: active
+run_id: 84894e70d4784a67ad3e3d305a4d40cd
+run_name: luminous-snipe-87
+run_uuid: 84894e70d4784a67ad3e3d305a4d40cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782931040877
+status: 3
+tags: []
+user_id: Rizky
