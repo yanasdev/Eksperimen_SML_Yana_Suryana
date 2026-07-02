@@ -36,3 +36,4 @@ jobs:
           git add preprocessing/house-price-clean_preprocessing.csv
           # Commit and push only if there are changes
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update cleaned dataset" && git push)
+          
