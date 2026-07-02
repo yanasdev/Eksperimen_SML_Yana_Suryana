@@ -218,7 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
 preprocessing/*.csv
 preprocessing/house-prices-dataset_raw/
 .vscode/
 .DS_Store
+
+!preprocessing/house-price-clean_preprocessing.csv
