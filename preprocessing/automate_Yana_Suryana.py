@@ -69,7 +69,7 @@ if __name__ == "__main__":
     df_clean = preprocess_data(df_raw)
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    output_path = os.path.join(script_dir, 'house-price-clean_preprocessing.csv')
+    output_path = os.path.join(script_dir, 'house-price-dataset_preprocessing.csv')
     
     df_clean.to_csv(output_path, index=False)
     print(f"Preprocessing selesai! Data tersimpan di '{output_path}'. Bentuk data: {df_clean.shape}")
