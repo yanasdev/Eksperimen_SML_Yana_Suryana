@@ -39,7 +39,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           # Add the cleaned dataset to the staging area
-          git add preprocessing/house-price-clean_preprocessing.csv
+          git add preprocessing/house-price-dataset_preprocessing.csv
           # Check if there are changes to commit
           if ! git diff --quiet --exit-code; then
             git commit -m "Auto-update cleaned dataset"
