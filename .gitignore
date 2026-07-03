@@ -225,5 +225,5 @@ preprocessing/house-prices-dataset_raw/
 .vscode/
 .DS_Store
 
-!preprocessing/house-price-clean_preprocessing.csv
+!preprocessing/house-price-dataset_preprocessing.csv
 .workflows/
