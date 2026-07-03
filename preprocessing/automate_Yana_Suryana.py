@@ -10,7 +10,7 @@ def load_data():
     api.authenticate()
     
     competition = 'house-prices-advanced-regression-techniques'
-    download_path = './house-prices-dataset_raw'
+    download_path = '../house-prices-dataset_raw'
     
     if not os.path.exists(os.path.join(download_path, 'train.csv')):
         print("Data tidak ditemukan. Mengunduh dari Kaggle...")

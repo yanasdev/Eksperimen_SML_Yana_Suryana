@@ -1,6 +1,0 @@
-pandas==2.2.3
-numpy
-scikit-learn
-mlflow==2.19.0
-dagshub
-matplotlib
